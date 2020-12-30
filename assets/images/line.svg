@@ -1,0 +1,21 @@
+<svg width="184" height="306" viewBox="0 0 184 306" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line y1="-0.5" x2="230.228" y2="-0.5" transform="matrix(0.79052 -0.612436 0.551561 0.834134 1 142)" stroke="#FD791A"/>
+<line y1="-0.5" x2="201.725" y2="-0.5" transform="matrix(0.902218 -0.43128 0.377766 0.925901 1 142)" stroke="#FD791A"/>
+<line y1="-0.5" x2="185.526" y2="-0.5" transform="matrix(0.980993 -0.194043 0.166471 0.986046 1 142)" stroke="#FD791A"/>
+<line y1="-0.5" x2="182.222" y2="-0.5" transform="matrix(0.998753 0.0499302 -0.0417128 0.99913 1 142)" stroke="#FD791A"/>
+<line y1="-0.5" x2="191.951" y2="-0.5" transform="matrix(0.948161 0.31779 -0.275035 0.961434 1 142)" stroke="#FD791A"/>
+<line y1="-0.5" x2="213.178" y2="-0.5" transform="matrix(0.853745 0.520691 -0.461736 0.887017 1 142)" stroke="#FD791A"/>
+<line y1="-0.5" x2="244.99" y2="-0.5" transform="matrix(0.742888 0.669416 -0.609646 0.792674 1 142)" stroke="#FD791A"/>
+<style>
+line {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear 1s infinite;
+}
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+</style>
+</svg>

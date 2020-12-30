@@ -1,0 +1,92 @@
+<svg width="253" height="260" viewBox="0 0 253 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle class="zoomIn" opacity="0.5" cx="127" cy="15" r="15" fill="#FD791A"/>
+  <circle class="zoomIn" opacity="0.5" cx="64" cy="131" r="15" fill="#FD791A"/>
+  <circle class="zoomIn" opacity="0.4" cx="36" cy="47" r="15" fill="#FD791A"/>
+  <circle class="zoomIn" opacity="0.5" cx="134" cy="217" r="15" fill="#FD791A"/>
+  <circle class="zoomIn" opacity="0.6" cx="179" cy="125" r="15" fill="#FD791A"/>
+  <circle class="zoomOut" opacity="0.5" cx="107" cy="47" r="5" fill="white"/>
+  <circle class="zoomOut" opacity="0.5" cx="135" cy="132" r="5" fill="white"/>
+  <circle class="zoomOut" opacity="0.5" cx="73" cy="65" r="9" fill="white"/>
+  <circle class="zoomOut" opacity="0.5" cx="9" cy="94" r="9" fill="white"/>
+  <circle class="zoomOut" opacity="0.5" cx="73" cy="174" r="9" fill="white"/>
+  <circle class="zoomOut" opacity="0.5" cx="21" cy="155" r="9" fill="white"/>
+  <circle class="zoomOut" opacity="0.5" cx="91" cy="251" r="9" fill="white"/>
+  <circle class="zoomOut" opacity="0.5" cx="170" cy="47" r="9" fill="white"/>
+  <circle class="zoomOut" opacity="0.5" cx="82" cy="20" r="9" fill="white"/>
+  <circle class="zoomOut" opacity="0.5" cx="169" cy="165" r="9" fill="white"/>
+  <circle class="zoomOut" opacity="0.5" cx="98" cy="96" r="9" fill="white"/>
+  <circle class="zoomOut" opacity="0.5" cx="194" cy="85" r="9" fill="white"/>
+  <circle class="zoomOut" opacity="0.5" cx="140" cy="85" r="14" fill="white"/>
+  <circle class="zoomOut" opacity="0.5" cx="121" cy="169" r="14" fill="white"/>
+  <circle class="zoomOut" opacity="0.5" cx="43" cy="221" r="14" fill="white"/>
+  <circle class="zoomOut" opacity="0.5" cx="101.5" cy="141.5" r="4.5" fill="white"/>
+  <circle class="zoomOut" opacity="0.5" cx="49.5" cy="91.5" r="4.5" fill="white"/>
+  <circle class="zoomOut" opacity="0.5" cx="88.5" cy="214.5" r="4.5" fill="white"/>
+  <circle class="zoomOut" opacity="0.5" cx="239" cy="101" r="14" fill="white"/>
+  <style>
+  .zoomIn {
+    animation: 1s zoomIn linear infinite alternate;
+  }
+  .zoomIn:nth-child(1) {
+    animation-delay: 0.3s;
+  }
+  .zoomIn:nth-child(2) {
+    animation-delay: 0.5s;
+  }
+  .zoomIn:nth-child(3) {
+    animation-delay: 0.1s;
+  }
+  .zoomIn:nth-child(4) {
+    animation-delay: 0.8s;
+  }
+  .zoomOut {
+    animation: 1s zoomOut linear infinite alternate;
+  }
+  .zoomOut:nth-child(1) {
+    animation-delay: 0.3s;
+  }
+  .zoomOut:nth-child(2) {
+    animation-delay: 0.6s;
+  }
+  .zoomOut:nth-child(3) {
+    animation-delay: 0.9s;
+  }
+  .zoomOut:nth-child(4) {
+    animation-delay: 0.5s;
+  }
+  .zoomOut:nth-child(5) {
+    animation-delay: 0.2s;
+  }
+  .zoomOut:nth-child(6) {
+    animation-delay: 0.5s;
+  }
+  .zoomOut:nth-child(7) {
+    animation-delay: 0.3s;
+  }
+  .zoomOut:nth-child(8) {
+    animation-delay: 0.8s;
+  }
+  .zoomOut:nth-child(9) {
+    animation-delay: 0.7s;
+  }
+  .zoomOut:nth-child(10) {
+    animation-delay: 0.3s;
+  }
+  .zoomOut:nth-child(11) {
+    animation-delay: 0.1s;
+  }
+  .zoomOut:nth-child(12) {
+    animation-delay: 0.8s;
+  }
+  .zoomOut:nth-child(13) {
+    animation-delay: 0.2s;
+  }
+    @keyframes zoomIn {
+      to { transform: scale(0.95) }
+    }
+    @keyframes zoomOut {
+      from { transform: scale(0.95) }
+      to { transform: scale(1) }
+    }
+  </style>
+</svg>
