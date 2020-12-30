@@ -4,3 +4,6 @@ Figma design to Landing page
 - SCSS
 - SVG Animation
 - Wow.js
+
+# Vercel Deployed
+https://type-w.vercel.app/
